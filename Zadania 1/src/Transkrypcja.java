@@ -9,6 +9,7 @@ public class Transkrypcja {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         String dna = scan.next();
+        dna = dna.toUpperCase();
         String rna = Transcription(dna);
         scan.close();
         System.out.println(rna);
