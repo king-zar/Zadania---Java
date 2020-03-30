@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af4244e7-ad14-4010-a395-3e4e85fe2734" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Odwrocone_dopelnienie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Transkrypcja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transkrypcja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zliczanie_nukleotydow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Odwrocone_dopelnienie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Odwrocone_dopelnienie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585607956894</updated>
       <workItem from="1585607969215" duration="1620000" />
-      <workItem from="1585609693913" duration="1135000" />
+      <workItem from="1585609693913" duration="1282000" />
     </task>
     <servers />
   </component>
