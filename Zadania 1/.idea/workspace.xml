@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af4244e7-ad14-4010-a395-3e4e85fe2734" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Zliczanie_nukleotydow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Odwrocone_dopelnienie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Odwrocone_dopelnienie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NajdluzszyWspolnyPodlancuch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OdwroconeDopelnienie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZliczanieNukleotydow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Odwrocone_dopelnienie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Transkrypcja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transkrypcja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zliczanie_nukleotydow.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Zadania 1" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -21,22 +29,38 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1ZrrGKGwZYUU7f1tBsk1Kzs8gbr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Odwrocone_dopelnienie">
+  <component name="RunManager" selected="Application.NajdluzszyWspolnyPodlancuch">
+    <configuration name="NajdluzszyWspolnyPodlancuch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NajdluzszyWspolnyPodlancuch" />
+      <module name="Transkrypcja" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Odwrocone_dopelnienie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Odwrocone_dopelnienie" />
       <module name="Transkrypcja" />
@@ -51,8 +75,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Zliczanie_nukleotydow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Zliczanie_nukleotydow" />
+      <module name="Transkrypcja" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NajdluzszyWspolnyPodlancuch" />
+        <item itemvalue="Application.Zliczanie_nukleotydow" />
         <item itemvalue="Application.Odwrocone_dopelnienie" />
         <item itemvalue="Application.Transkrypcja" />
       </list>
@@ -69,12 +102,16 @@
       <option name="presentableId" value="Default" />
       <updated>1585607956894</updated>
       <workItem from="1585607969215" duration="1620000" />
-      <workItem from="1585609693913" duration="1282000" />
+      <workItem from="1585609693913" duration="4050000" />
+      <workItem from="1585637452486" duration="5712000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="71" key="#Project_Structure" timestamp="1585608000959">
@@ -89,25 +126,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="975" y="328" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1585609267701" />
-    <state width="726" height="208" key="GridCell.Tab.0.bottom" timestamp="1585610439237">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1585641972403">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="726" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585610439237" />
-    <state width="726" height="208" key="GridCell.Tab.0.center" timestamp="1585610439237">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585641972403" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1585641972402">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="726" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585610439237" />
-    <state width="726" height="208" key="GridCell.Tab.0.left" timestamp="1585610439237">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585641972402" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1585641972402">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="726" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585610439237" />
-    <state width="726" height="208" key="GridCell.Tab.0.right" timestamp="1585610439237">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585641972402" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1585641972403">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="726" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585610439237" />
-    <state x="849" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585609714260">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585641972403" />
+    <state x="849" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585637455315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="849" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585609714260" />
+    <state x="849" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585637455315" />
   </component>
 </project>
