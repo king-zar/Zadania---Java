@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//similar code to previous one
 
 public class NajdluzszyWspolnyPodciag {
     public static String LongestCommonSubstring(String w1, String w2) {
@@ -7,10 +8,10 @@ public class NajdluzszyWspolnyPodciag {
         int totalLen = Math.max(w1Len,w2Len); //max word's length from w1 and w2
         int[] wordIndex = new int[totalLen]; //remembers indexes of w2
         int endIndex = 0; //remembers the last used index
-        String commonSequence = "";
-        boolean ques = true;
+        String commonSequence = ""; //var which returns function's result
+        boolean ques = false; //shows if letter is common
         int sgn = 0; //var used as index of table wordIndex
-        String tmp = "";
+        String tmp = ""; //temporary var for longest sequence
 
         if (w1==w2) { //if words are exactly the same, we don't need the rest of this function
 
@@ -23,10 +24,10 @@ public class NajdluzszyWspolnyPodciag {
             }
 
             for (int i=q; i<w1.length(); i++) {
-                for (int j=endIndex; j<w2.length(); j++) {
+                for (int j=endIndex; j<w2.length(); j++) { //checks letters after last checked letter
                     ques = true;
 
-                    if (w1.charAt(i)==w2.charAt(j)) {
+                    if (w1.charAt(i)==w2.charAt(j)) { //determines what happens if the w1's letter is same as w2's letter
                         for (int k=0; k<w2.length(); k++) {
                             if (w2.indexOf(w2.charAt(j), j)==wordIndex[k]) {
                                 ques = false;
@@ -37,7 +38,7 @@ public class NajdluzszyWspolnyPodciag {
                             tmp += w1.charAt(i);
                             endIndex = j;
 
-                            wordIndex[sgn] = w2.indexOf(w2.charAt(j), j);
+                            wordIndex[sgn] = w2.indexOf(w2.charAt(j), j); //now table remembers index
                             sgn++;
                             break;
                         }
@@ -45,12 +46,12 @@ public class NajdluzszyWspolnyPodciag {
                 }
             }
 
-            if (tmp.length()>commonSequence.length()) {
+            if (tmp.length()>commonSequence.length()) { //we have to check if temporary sequence is longer than final
                 commonSequence = tmp;
             }
 
-            tmp = "";
-            endIndex = 0;
+            tmp = ""; //"removes" data from temporary var
+            endIndex = 0; //we want to check again, so we have to start from the first letter
             sgn = 0;
         }
 
