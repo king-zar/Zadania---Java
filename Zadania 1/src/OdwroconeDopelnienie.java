@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Odwrocone_dopelnienie {
+public class OdwroconeDopelnienie {
     public static String Complement (String s) {
         //changing nucleotides to complementary ones
         s = s.replace('A', '*');

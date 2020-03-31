@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Zliczanie_nukleotydow {
+public class ZliczanieNukleotydow {
     public static int[] Quantity(String s) { //function for counting nucleotides
         int[] quan = new int[4];
 
